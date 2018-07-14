@@ -1,0 +1,51 @@
+/*
+.box {
+    min-height: 50px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 800;
+    color: #fff;
+  }
+  
+  .skyblue {
+    background: deepskyblue;
+  }
+  
+  .purple {
+    background: rebeccapurple;
+  }
+  
+  .red {
+    background: indianred;
+  }
+
+ */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #10B7C4;
+}
